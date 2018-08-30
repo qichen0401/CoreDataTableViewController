@@ -1,0 +1,6 @@
+framework module CoreDataTableViewController {
+  umbrella header "CoreDataTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

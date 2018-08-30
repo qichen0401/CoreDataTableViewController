@@ -1,0 +1,16 @@
+PODS:
+  - CoreDataTableViewController (0.1.0)
+
+DEPENDENCIES:
+  - CoreDataTableViewController (from `../`)
+
+EXTERNAL SOURCES:
+  CoreDataTableViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreDataTableViewController: 1eeb93bc17e73faa7f679c3b87d2fa2f0a1924e5
+
+PODFILE CHECKSUM: 040536c476267804dc725c3ebe22fcedf57d8b08
+
+COCOAPODS: 1.5.3

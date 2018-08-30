@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		3351D7534B2F214B5750E8C1 /* Pods_CoreDataTableViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1D0BD22B66491BD850BEBE /* Pods_CoreDataTableViewController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		BA6600E7783CC22043454313 /* Pods_CoreDataTableViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C3209B6E30BB5A6C3F255F /* Pods_CoreDataTableViewController_Example.framework */; };
+		C0601FDE21378D3200194C2D /* DemoCoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601FDD21378D3200194C2D /* DemoCoreDataTableViewController.swift */; };
+		C0C1D80B213791B7004819C5 /* demoData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0C1D809213791B7004819C5 /* demoData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +30,10 @@
 
 /* Begin PBXFileReference section */
 		0CF03E50776E20E236D2A929 /* Pods-CoreDataTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataTableViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataTableViewController_Tests/Pods-CoreDataTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4FA770041F2996A82429B3DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4FA770041F2996A82429B3DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CoreDataTableViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTableViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,10 +42,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63294C99529D2201F03E6A28 /* Pods-CoreDataTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataTableViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataTableViewController_Example/Pods-CoreDataTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D1D0BD22B66491BD850BEBE /* Pods_CoreDataTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A03B3D45805100E4A49CD8CD /* CoreDataTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CoreDataTableViewController.podspec; path = ../CoreDataTableViewController.podspec; sourceTree = "<group>"; };
+		A03B3D45805100E4A49CD8CD /* CoreDataTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoreDataTableViewController.podspec; path = ../CoreDataTableViewController.podspec; sourceTree = "<group>"; };
 		A5826EB2D99251BD1F176087 /* Pods-CoreDataTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataTableViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataTableViewController_Tests/Pods-CoreDataTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0601FDD21378D3200194C2D /* DemoCoreDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCoreDataTableViewController.swift; sourceTree = "<group>"; };
+		C0C1D80A213791B7004819C5 /* demoData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demoData.xcdatamodel; sourceTree = "<group>"; };
 		C4036E4DA7A12C610F0CDE42 /* Pods-CoreDataTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataTableViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataTableViewController_Example/Pods-CoreDataTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7A3ADA49C7213ECCD529DEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D7A3ADA49C7213ECCD529DEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7C3209B6E30BB5A6C3F255F /* Pods_CoreDataTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataTableViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,10 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C0601FDD21378D3200194C2D /* DemoCoreDataTableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				C0C1D809213791B7004819C5 /* demoData.xcdatamodeld */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for CoreDataTableViewController";
@@ -322,8 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C0601FDE21378D3200194C2D /* DemoCoreDataTableViewController.swift in Sources */,
+				C0C1D80B213791B7004819C5 /* demoData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreDataTableViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreDataTableViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -565,6 +571,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0C1D809213791B7004819C5 /* demoData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0C1D80A213791B7004819C5 /* demoData.xcdatamodel */,
+			);
+			currentVersion = C0C1D80A213791B7004819C5 /* demoData.xcdatamodel */;
+			path = demoData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

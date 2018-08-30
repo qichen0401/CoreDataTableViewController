@@ -1,0 +1,22 @@
+{
+  "name": "CoreDataTableViewController",
+  "version": "0.1.0",
+  "summary": "A short description of CoreDataTableViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qichen0401/CoreDataTableViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qichen0401": "qichen0401@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qichen0401/CoreDataTableViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CoreDataTableViewController/Classes/**/*"
+}
