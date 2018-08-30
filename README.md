@@ -17,7 +17,7 @@ CoreDataTableViewController is available through [CocoaPods](https://cocoapods.o
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CoreDataTableViewController'
+pod 'CoreDataTableViewController', :git => ‘https://github.com/qichen0401/CoreDataTableViewController.git’
 ```
 
 ## Author
