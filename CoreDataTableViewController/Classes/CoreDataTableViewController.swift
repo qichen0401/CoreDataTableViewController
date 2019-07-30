@@ -20,6 +20,8 @@ open class CoreDataTableViewController: UITableViewController, NSFetchedResultsC
     public func performFetch() {
         do {
             try fetchedResultsController?.performFetch()
+            
+            tableView.reloadData()
         } catch {
             fatalError("Failed to fetch entities: \(error)")
         }
